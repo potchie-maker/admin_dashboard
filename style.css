@@ -5,3 +5,38 @@
 * {
   margin: 0;
 }
+
+body,
+html {
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 5fr;
+}
+
+.header {
+  display: grid;
+}
+
+.sidebar {
+  background-color: #1a92d5;
+  color: white;
+  grid-row: 1 / 3;
+  display: grid;
+  align-content: start;
+  gap: 40px;
+}
+
+ul {
+  list-style: none;
+  /* text-align: center; */
+  padding: 0;
+}
+
+.content {
+  background-color: #e2e8f0;
+}
