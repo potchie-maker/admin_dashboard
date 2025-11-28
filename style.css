@@ -261,10 +261,6 @@ ul {
   width: 1.6rem;
 }
 
-.proj-acts svg:last-child {
-  transform: rotate(270deg);
-}
-
 /* right side */
 
 .c-right {
